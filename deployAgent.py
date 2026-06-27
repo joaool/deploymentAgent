@@ -9,7 +9,7 @@ from agents import Agent, Runner
 app = FastAPI()
 @app.get("/", response_class=HTMLResponse)
 def read_root():
-    return "<h1>Deploy AI Agent</h1><p>Welcome to the Deploy AI Agent API!</p>"
+    return "<h1>Deploy AI Agent on Web</h1><p>Welcome to the Deploy AI Agent API!</p>"
 
 agent = Agent(
     name="Assistant",
